@@ -61,7 +61,7 @@ body {
 
 .navContainer {
   @apply 
-  bg-nature-green lg:h-[280px] w-full h-[80px] relative
+  bg-nature-green bg-cover bg-center bg-no-repeat lg:h-[280px] w-full h-[80px] relative
 }
 ul li a {
   @apply

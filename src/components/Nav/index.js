@@ -56,16 +56,15 @@ function Nav(props) {
           className="float-right mr-10 lg:flex leading-[80px] 
         space-x-4 text-black rounded fixed lg:relative h-[100vh] 
         lg:h-0 w-[100%] lg:w-fit top-20 lg:top-0 left-[-100%] lg:left-0 
-        transition-all duration-300 lg:transition-none text-center bg-slate-700 shadow-teal-900"
+        transition-all duration-300 lg:transition-none 
+        text-center bg-slate-700 shadow-teal-900"
         >
           <li className={`${aboutSelected && "navActive"}`}>
-            <a data-id="about" href="/" onClick={() =>{ 
+            <a data-id="about" onClick={() =>{ 
               setAboutSelected(true);
               setContactSelected(false);
               setResumeSelected(false);
-              }}>
-            About me
-            </a>
+              }}>About me</a>
           </li>
           {navbars.map((navbar) => (
             <li
