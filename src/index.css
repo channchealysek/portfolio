@@ -55,19 +55,21 @@ body {
 }
 
 .navActive {
-  color: var(--secondary);
+  @apply
+  text-orange-500 underline underline-offset-2
 }
 
 .navContainer {
   @apply 
-  bg-slate-600 lg:h-[280px] w-full h-[80px] relative
+  bg-nature-green lg:h-[280px] w-full h-[80px] relative
 }
 ul li a {
-  @apply rounded py-[7px] px-[13px] text-[17px]
-  hover:bg-slate-300 transition-all duration-300 cursor-pointer
+  @apply
+    py-[7px] px-[13px] text-[17px]
+  hover:bg-slate-500 hover:text-orange-500 transition-all duration-300 cursor-pointer
+  bg-gray-50 hover:font-semibold rounded-full p-6 shadow-md shadow-slate-300
 }
 
 #check:checked ~ ul {
   @apply left-0
 }
-
