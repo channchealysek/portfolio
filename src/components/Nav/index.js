@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { capitalizeFirstLetter } from "../../utils/helpers";
 
-function Nav(props) {
+function Nav(navs) {
   const {
     navbars = [],
     setCurrentNavbar,
@@ -12,7 +12,7 @@ function Nav(props) {
     setAboutSelected,
     resumeSelected,
     setResumeSelected
-  } = props;
+  } = navs;
 
   useEffect(() => {
     document.title = capitalizeFirstLetter(currentNavbar.name);

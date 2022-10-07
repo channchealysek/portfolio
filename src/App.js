@@ -9,8 +9,6 @@ function App() {
   const [navbars] = useState([
     {
       name: "portfolio",
-      description:
-        "Photos of grocery stores, food trucks, and other commercial projects",
     },
   ]);
 

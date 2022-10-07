@@ -3,6 +3,7 @@ module.exports = {
   theme: {
     backgroundImage: {
       'nature-green': "url('./assets/cover/header_bg.png')",
+      'fam-food-finds': "url('./assets/images/fam-food-finds.png')",
     },
     extend: {},
   },
