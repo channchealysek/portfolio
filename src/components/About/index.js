@@ -1,22 +1,43 @@
-import React from 'react';
-import coverImage from '../../assets/cover/cover-image.jpg';
+import React from "react";
+import coverImage from "../../assets/cover/aboutme.jpg";
+import SocialLink from "../SocialLink";
 function About() {
   return (
-    <section>
-      <h1 id="about">Who am I?</h1>
-      <img src={coverImage} className="" style={{ width: "100%" }} alt="cover" />
-      <div >
+    <div className="grid grid-flow-row gap-3 justify-center items-center ">
+      <div className="border-l-4 text-4xl">
+        <h1 id="about">About me</h1>
+      </div>
+      <div>
+        <img
+          src={coverImage}
+          className=" p-1 w-[130px] h-[140px] rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
+          alt="cover"
+        />
+      </div>
+      <div>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex
-          condimentum molestie. Mauris condimentum lectus ut ornare dignissim. Mauris faucibus urna
-          mi, ac feugiat metus aliquam maximus. Proin aliquam justo nec diam vulputate vestibulum.
-          Aenean sollicitudin nulla at nisi ornare, nec suscipit massa eleifend. Morbi tristique
-          justo vel turpis sollicitudin, et tristique velit convallis. In hac habitasse platea
-          dictumst. Phasellus mattis nunc sed orci consequat laoreet. Praesent id nisl nibh.
-          Curabitur imperdiet ultricies mollis. In hac habitasse platea dictumst.
+          <span className=" text-lg text-orange-400">
+            LET ME INTRODUCE MY SELF &nbsp;
+          </span>
+          I fell in love with programming and I have at least learnt something,
+          I think… 🤷‍♂️ My field of Interest's are building new Web Technologies
+          and Products A passionate Full Stack Software Developer 🚀 I have an
+          experience of building Web and Mobile applications with JavaScript,
+          Reactjs, Nodejs, React Native and some other cool libraries
+        </p>
+        <p>
+          <br />I know about problems solving for domains and hosting, backup
+          and management maintenances database on server side.
         </p>
       </div>
-    </section>
+      <div className="">
+        <SocialLink
+          linkGitHub="https://github.com/channchealysek"
+          linkLinkedin="https://www.linkedin.com/in/channchealysek"
+          linkTwitter="https://twitter.com/channchealy_sek"
+        />
+      </div>
+    </div>
   );
 }
 

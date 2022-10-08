@@ -5,6 +5,7 @@ import Resume from "./components/Resume";
 import Portfolio from "./components/Portfolio";
 import ContactForm from "./components/Contact";
 
+
 function App() {
   const [navbars] = useState([
     {
