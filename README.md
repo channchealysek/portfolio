@@ -6,9 +6,9 @@ My personal portfolio built using React and TailwindCSS. I'm continually adding 
 2. [Installation](#Installation)
 3. [Usage](#Usage)
 4. [License](#License)
-7. [Screenshot](#Screenshot)
-8. [LiveURL](#LiveURL)
-9. [Questions](#Questions)
+5. [Screenshot](#Screenshot)
+6. [LiveURL](#LiveURL)
+7. [Questions](#Questions)
 
 ## Prerequisites 
 If you want to pull inspiration from my portfolio design, please email or credit me :) But if you're interested in how I built it, below are the tools used:
