@@ -44,7 +44,7 @@ function Nav(navs) {
         className="text-white leading-[80px] lg:leading-[80px] pl-12 lg:text-4xl
         text-3xl font-bol drop-shadow-lg shadow-black"
       >
-        <a data-id="link" href="/">
+        <a data-id="link" href="">
           SEK, Channchealy
         </a>
       </label>
