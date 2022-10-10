@@ -2,8 +2,9 @@ import React from "react";
 import coverImage from "../../assets/cover/aboutme.jpg";
 function About() {
   return (
-    <div className="grid grid-flow-row gap-3 justify-center items-center ">
-      <div className="border-l-4 text-4xl">
+    <div className="">
+          <div className="grid grid-cols-1 gap-3 ">
+      <div className="text-4xl">
         <h1 id="about">About me</h1>
       </div>
       <div>
@@ -29,6 +30,7 @@ function About() {
           and management maintenances database on server side.
         </p>
       </div>
+    </div>
     </div>
   );
 }

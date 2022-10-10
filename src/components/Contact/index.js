@@ -12,7 +12,6 @@ function ContactForm() {
   const [formValues, setFormValues] = useState(initialValues);
   const [formErrors, setFormErrors] = useState({});
   const [isSubmit, setIsSubmit] = useState(false);
-
   const [showModal, setShowModal] = useState(false);
   const handleOnClose = () => setShowModal(false)
 
@@ -20,20 +19,17 @@ function ContactForm() {
     e.preventDefault();
     setFormErrors(validate(formValues));
     setIsSubmit(true);
-    console.log("Submit Form", formValues);
   };
 
   useEffect(() => {
-    console.log(formErrors);
     if (Object.keys(formErrors).length === 0 && isSubmit) {
       console.log(formValues);
     }
   }, [formErrors]);
-  // const isValid = validateEmail(e.target.value);
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormValues({ ...formValues, [name]: value });
-    console.log(formValues);
   };
 
   const validate = (values) => {
@@ -56,7 +52,7 @@ function ContactForm() {
   return (
     <div>
       <div className="">
-        <div className="border-l-4 text-4xl">Contact</div>
+        <div className="pr-3 underline text-4xl">Contact</div>
         <div className="grid grid-rows justify-center">
           <div className="bg-white flex flex-row justify-center items-center h-[460px]">
             {/* <!-- contact information form --> */}

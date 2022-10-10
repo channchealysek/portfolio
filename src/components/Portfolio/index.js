@@ -12,41 +12,47 @@ import note_taker from "../../assets/images/note-taker.png";
 function Portfolio() {
   return (
     <div>
-      <div className="border-l-4 text-4xl">Portfolio</div>
+      <div className="pr-3 underline text-4xl">Portfolio</div>
       <div className="project-area">
         <Card
           imageURL={coverFam_Food_Finds}
           title={capitalizeFirstLetter("Fam-Food-Finds")}
+          description="MERN Stack"
           gitHubURL="https://github.com/DouglasRed/fam-food-finds"
           urlLive="https://fam-food-finds.herokuapp.com/"
         />
         <Card
           imageURL={employee_manager530_}
           title={capitalizeFirstLetter("Employee Manager")}
+          description="MERN Stack"
           gitHubURL="https://github.com/channchealysek/cs-employee-manager"
           urlLive="https://bit.ly/3Su6FSF"
         />
         <Card
           imageURL={note_taker}
           title={capitalizeFirstLetter("Note Taker")}
+          description="MERN Stack"
           gitHubURL="https://github.com/channchealysek/cs-note-taker"
           urlLive="https://csnote-taker.herokuapp.com/"
         />
         <Card
           imageURL={team_profile_generator_}
           title={capitalizeFirstLetter("Team Profile Generator")}
+          description="MERN Stack"
           gitHubURL="https://github.com/channchealysek/cs-team-profile-generator"
           urlLive="https://bit.ly/3Kc4uPZ"
         />
         <Card
           imageURL={cs_movie_info_db_}
           title={capitalizeFirstLetter("Movie Info Database")}
+          description="MERN Stack"
           gitHubURL="https://github.com/channchealysek/cs-movie-info-db"
           urlLive="https://channchealysek.github.io/cs-movie-info-db/"
         />
         <Card
           imageURL={cs_pizza_hunt_}
           title={capitalizeFirstLetter("Fam-Food-Finds")}
+          description="MERN Stack"
           gitHubURL="https://github.com/channchealysek/pizza-hunt"
           urlLive="https://cs-pizza-hunt.herokuapp.com/"
         />
