@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "../Card/Card";
+import Card from "../Card"
 import { capitalizeFirstLetter } from "../../utils/helpers";
 
 import coverFam_Food_Finds from "../../assets/images/fam-food-finds.png";
