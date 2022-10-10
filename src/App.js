@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import Nav from "./components/Nav";
+import Header from "./components/Header";
 import About from "./components/About";
 import Resume from "./components/Resume";
 import Portfolio from "./components/Portfolio";
 import ContactForm from "./components/Contact";
-import Footer from "./components/Footer"
+import Footer from "./components/Footer";
 
 function App() {
   const [navbars] = useState([
@@ -20,19 +20,17 @@ function App() {
 
   return (
     <div>
-      <header>
-        <Nav
-          navbars={navbars}
-          currentNavbar={currentNavbar}
-          contactSelected={contactSelected}
-          aboutSelected={aboutSelected}
-          resumeSelected={resumeSelected}
-          setAboutSelected={setAboutSelected}
-          setContactSelected={setContactSelected}
-          setCurrentNavbar={setCurrentNavbar}
-          setResumeSelected={setResumeSelected}
-        />
-      </header>
+      <Header
+        navbars={navbars}
+        currentNavbar={currentNavbar}
+        contactSelected={contactSelected}
+        aboutSelected={aboutSelected}
+        resumeSelected={resumeSelected}
+        setAboutSelected={setAboutSelected}
+        setContactSelected={setContactSelected}
+        setCurrentNavbar={setCurrentNavbar}
+        setResumeSelected={setResumeSelected}
+      />
       <main>
         {contactSelected ? (
           <>
