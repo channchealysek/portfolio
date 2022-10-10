@@ -4,7 +4,7 @@ import About from "./components/About";
 import Resume from "./components/Resume";
 import Portfolio from "./components/Portfolio";
 import ContactForm from "./components/Contact";
-
+import Footer from "./components/Footer"
 
 function App() {
   const [navbars] = useState([
@@ -20,33 +20,41 @@ function App() {
 
   return (
     <div>
-      <Nav
-        navbars={navbars}
-        currentNavbar={currentNavbar}
-        contactSelected={contactSelected}
-        aboutSelected={aboutSelected}
-        resumeSelected={resumeSelected}
-        setAboutSelected={setAboutSelected}
-        setContactSelected={setContactSelected}
-        setCurrentNavbar={setCurrentNavbar}
-        setResumeSelected={setResumeSelected}
-      ></Nav>
+      <header>
+        <Nav
+          navbars={navbars}
+          currentNavbar={currentNavbar}
+          contactSelected={contactSelected}
+          aboutSelected={aboutSelected}
+          resumeSelected={resumeSelected}
+          setAboutSelected={setAboutSelected}
+          setContactSelected={setContactSelected}
+          setCurrentNavbar={setCurrentNavbar}
+          setResumeSelected={setResumeSelected}
+        />
+      </header>
       <main>
         {contactSelected ? (
-          <ContactForm />
+          <>
+            <ContactForm />
+            <Footer />
+          </>
         ) : (
           <>
             {aboutSelected ? (
-              <About />
+              <>
+                <About />
+                <Footer />
+              </>
             ) : (
-            <>
-              {resumeSelected ? (
-                <Resume />
-              ) : (
-                <Portfolio currentNavbar={currentNavbar}></Portfolio>
-              )}
-            </>
-          )}
+              <>
+                {resumeSelected ? (
+                  <Resume />
+                ) : (
+                  <Portfolio currentNavbar={currentNavbar}></Portfolio>
+                )}
+              </>
+            )}
           </>
         )}
       </main>

@@ -1,6 +1,5 @@
 import React from "react";
 import coverImage from "../../assets/cover/aboutme.jpg";
-import SocialLink from "../SocialLink";
 function About() {
   return (
     <div className="grid grid-flow-row gap-3 justify-center items-center ">
@@ -29,13 +28,6 @@ function About() {
           <br />I know about problems solving for domains and hosting, backup
           and management maintenances database on server side.
         </p>
-      </div>
-      <div className="">
-        <SocialLink
-          linkGitHub="https://github.com/channchealysek"
-          linkLinkedin="https://www.linkedin.com/in/channchealysek"
-          linkTwitter="https://twitter.com/channchealy_sek"
-        />
       </div>
     </div>
   );
