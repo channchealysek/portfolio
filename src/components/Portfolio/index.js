@@ -51,10 +51,17 @@ function Portfolio() {
         />
         <Card
           imageURL={cs_pizza_hunt_}
-          title={capitalizeFirstLetter("Fam-Food-Finds")}
+          title={capitalizeFirstLetter("Pizza Hunt")}
           description="MERN Stack"
           gitHubURL="https://github.com/channchealysek/pizza-hunt"
           urlLive="https://cs-pizza-hunt.herokuapp.com/"
+        />
+                <Card
+          imageURL={cs_pizza_hunt_}
+          title={capitalizeFirstLetter("Deep Thoughts")}
+          description="MERN Stack"
+          gitHubURL="https://github.com/channchealysek/deep-thoughts"
+          urlLive="https://deepthougth123456.herokuapp.com/"
         />
       </div>
     </div>
