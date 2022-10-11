@@ -75,7 +75,7 @@ ul li a {
   grid grid-cols-1 w-full gap-x-3 gap-y-4 justify-around lg:grid-cols-3 p-5
 }
 .single-project {
-  @apply h-[580px] p-[18px] bg-white relative items-center transition-all
+  @apply lg:h-[580px] h-[430px] w-full lg:p-[18px] bg-white relative items-center transition-all
   ease-out shadow-2xl hover:translate-y-[15px] hover:before:opacity-100
 }
 

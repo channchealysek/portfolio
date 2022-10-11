@@ -13,7 +13,7 @@ import deep_thoughts from "../../assets/images/deep_thoughts.png";
 function Portfolio() {
   return (
     <div>
-      <div className="pr-3 underline text-4xl">Portfolio</div>
+      <div className="pr-3 underline lg:text-4xl">Portfolio</div>
       <div className="project-area">
         <Card
           imageURL={coverFam_Food_Finds}

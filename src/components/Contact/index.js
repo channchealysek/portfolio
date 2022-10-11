@@ -52,7 +52,7 @@ function ContactForm() {
   return (
     <div>
       <div className="">
-        <div className="pr-3 underline text-4xl">Contact</div>
+        <div className="pr-3 underline lg:text-4xl text-[1.46em]">Contact</div>
         <div className="grid grid-rows justify-center">
           <div className="bg-white flex flex-row justify-center items-center h-[460px]">
             {/* <!-- contact information form --> */}
@@ -66,7 +66,7 @@ function ContactForm() {
                   className="text-white text-xs flex flex-row md:hidden cursor-pointer"
                   id="swtich_to_contact_us"
                 >
-                  Contact Us{" "}
+                  Contact Us
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-4 w-4 ml-1"
