@@ -8,6 +8,7 @@ import cs_pizza_hunt_ from "../../assets/images/cs-pizza-hunt.herokuapp.com_.png
 import employee_manager530_ from "../../assets/images/employee-manager530-450.png";
 import team_profile_generator_ from "../../assets/images/team_profile_generator_.png";
 import note_taker from "../../assets/images/note-taker.png";
+import deep_thoughts from "../../assets/images/deep_thoughts.png";
 
 function Portfolio() {
   return (
@@ -57,7 +58,7 @@ function Portfolio() {
           urlLive="https://cs-pizza-hunt.herokuapp.com/"
         />
                 <Card
-          imageURL={cs_pizza_hunt_}
+          imageURL={deep_thoughts}
           title={capitalizeFirstLetter("Deep Thoughts")}
           description="MERN Stack"
           gitHubURL="https://github.com/channchealysek/deep-thoughts"
