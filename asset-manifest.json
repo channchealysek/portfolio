@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b14c2a38.css",
-    "main.js": "/portfolio/static/js/main.fbfd1b4b.js",
+    "main.css": "/portfolio/static/css/main.d4c19699.css",
+    "main.js": "/portfolio/static/js/main.3b0e5c29.js",
     "static/js/787.b9ec5bb0.chunk.js": "/portfolio/static/js/787.b9ec5bb0.chunk.js",
     "static/media/fam-food-finds.png": "/portfolio/static/media/fam-food-finds.8a34bf15082c1f893823.png",
     "static/media/cs-pizza-hunt.herokuapp.com_.png": "/portfolio/static/media/cs-pizza-hunt.herokuapp.com_.c72353c4945af282f1d6.png",
@@ -14,12 +14,12 @@
     "static/media/deep_thoughts.png": "/portfolio/static/media/deep_thoughts.6ffcdfe97c6acce75b1b.png",
     "static/media/note-taker.png": "/portfolio/static/media/note-taker.268515b039f8c323d761.png",
     "index.html": "/portfolio/index.html",
-    "main.b14c2a38.css.map": "/portfolio/static/css/main.b14c2a38.css.map",
-    "main.fbfd1b4b.js.map": "/portfolio/static/js/main.fbfd1b4b.js.map",
+    "main.d4c19699.css.map": "/portfolio/static/css/main.d4c19699.css.map",
+    "main.3b0e5c29.js.map": "/portfolio/static/js/main.3b0e5c29.js.map",
     "787.b9ec5bb0.chunk.js.map": "/portfolio/static/js/787.b9ec5bb0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b14c2a38.css",
-    "static/js/main.fbfd1b4b.js"
+    "static/css/main.d4c19699.css",
+    "static/js/main.3b0e5c29.js"
   ]
 }
