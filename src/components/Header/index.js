@@ -49,75 +49,83 @@ function Header(navs) {
         </a>
       </label>
       <ul
-        className="float-right mr-10 lg:flex leading-[80px] 
+        className="float-right mr-10 pt-10 lg:pt-0 lg:flex lg:leading-[80px] 
         space-x-4 text-black rounded fixed lg:relative h-[100vh] 
         lg:h-0 w-[100%] lg:w-fit top-20 lg:top-0 left-[-100%] lg:left-0 
         transition-all duration-300 lg:transition-none 
         text-center bg-slate-700 shadow-teal-900 z-10"
       >
         <li className={`${aboutSelected && "navActive"}`}>
-          <a
-            data-id="about"
-            onClick={() => {
-              setAboutSelected(true);
-              setContactSelected(false);
-              setResumeSelected(false);
-            }}
-          >
-            About me
-          </a>
+          <label for="check">
+            <a
+              data-id="about"
+              onClick={() => {
+                setAboutSelected(true);
+                setContactSelected(false);
+                setResumeSelected(false);
+              }}
+            >
+              About me
+            </a>
+          </label>
         </li>
         {navbars.map((navbar) => (
-          <li
-            className={`${
-              currentNavbar.name === navbar.name &&
-              !contactSelected &&
-              !aboutSelected &&
-              !resumeSelected &&
-              "navActive"
-            }`}
-            key={navbar.name}
-          >
+          <label for="check">
+            <li
+              className={`${
+                currentNavbar.name === navbar.name &&
+                !contactSelected &&
+                !aboutSelected &&
+                !resumeSelected &&
+                "navActive"
+              }`}
+              key={navbar.name}
+            >
+              <a>
+                <span
+                  onClick={() => {
+                    setCurrentNavbar(navbar);
+                    setContactSelected(false);
+                    setAboutSelected(false);
+                    setResumeSelected(false);
+                  }}
+                >
+                  {capitalizeFirstLetter(navbar.name)}
+                </span>
+              </a>
+            </li>
+          </label>
+        ))}
+        <label for="check">
+          <li className={`${resumeSelected && "navActive"}`}>
             <a>
               <span
                 onClick={() => {
-                  setCurrentNavbar(navbar);
+                  setResumeSelected(true);
                   setContactSelected(false);
+                  setAboutSelected(false);
+                }}
+              >
+                Resume
+              </span>
+            </a>
+          </li>
+        </label>
+        <label for="check" className="p-0">
+          <li className={`${contactSelected && "navActive"}`}>
+            <a>
+              <span
+                onClick={() => {
+                  setContactSelected(true);
                   setAboutSelected(false);
                   setResumeSelected(false);
                 }}
               >
-                {capitalizeFirstLetter(navbar.name)}
+                Contact
               </span>
             </a>
           </li>
-        ))}
-        <li className={`${resumeSelected && "navActive"}`}>
-          <a>
-            <span
-              onClick={() => {
-                setResumeSelected(true);
-                setContactSelected(false);
-                setAboutSelected(false);
-              }}
-            >
-              Resume
-            </span>
-          </a>
-        </li>
-        <li className={`${contactSelected && "navActive"}`}>
-          <a>
-            <span
-              onClick={() => {
-                setContactSelected(true);
-                setAboutSelected(false);
-                setResumeSelected(false);
-              }}
-            >
-              Contact
-            </span>
-          </a>
-        </li>
+        </label>
       </ul>
     </nav>
   );
