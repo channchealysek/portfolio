@@ -1,4 +1,4 @@
-# Portfolio
+# cs-React-Portfolio
 My personal portfolio built using React and TailwindCSS. I'm continually adding projects, modifying content, and updating the look and functionality.
 
 ## Table of Contents
