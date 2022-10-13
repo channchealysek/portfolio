@@ -42,7 +42,8 @@ function Header(navs) {
       </label>
       <label
         className="text-white leading-[80px] lg:leading-[80px] pl-12 lg:text-4xl
-         font-bol drop-shadow-lg shadow-black"
+         font-bol drop-shadow-lg shadow-orange-200 bg-orange-400 m-10 p-3 pr-5 rounded-tl-full
+         rounded-br-full shadow-md  backdrop-blur-sm"
       >
         <a data-id="link" href="">
           SEK, Channchealy

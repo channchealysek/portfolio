@@ -12,7 +12,8 @@ function Card({ title, imageURL, gitHubURL, urlLive, description }) {
       <div className="project-title">
         <div className="grid grid-flow-row justify-start w-full items-baseline mt-2">
           <div className="_title">{title}</div>
-          <div className="pt-10  text-3xl font-bold h-[250px] lg:h-[380px]">
+          <div className="pt-5 pr-2 mb-2  text-[1.02rem] font-bold h-[240px] lg:h-[380px]
+          overflow-ellipsis overflow-hidden">
             {description}
           </div>
           <div className="w-[160px] p-2 rounded-full grid grid-flow-col justify-end items-end gap-2 bg-slate-300">
