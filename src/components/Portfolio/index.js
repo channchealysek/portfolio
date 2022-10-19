@@ -9,6 +9,7 @@ import employee_manager530_ from "../../assets/images/employee-manager530-450.pn
 import team_profile_generator_ from "../../assets/images/team_profile_generator_.png";
 import note_taker from "../../assets/images/note-taker.png";
 import deep_thoughts from "../../assets/images/deep_thoughts.png";
+import shop_shop_redux from "../../assets/images/shop_shop_redux.png";
 
 function Portfolio() {
   return (
@@ -58,12 +59,19 @@ function Portfolio() {
           gitHubURL="https://github.com/channchealysek/pizza-hunt"
           urlLive="https://cs-pizza-hunt.herokuapp.com/"
         />
-                <Card
+        <Card
           imageURL={deep_thoughts}
           title={capitalizeFirstLetter("Deep Thoughts")}
           description="The social media use to share an idea with people you known comments and react for post. It is build with server-side and client-side usnign Node.js Express MongoDB GraphQL, API for Back-end and React for Front-end."
           gitHubURL="https://github.com/channchealysek/deep-thoughts"
           urlLive="https://deepthougth123456.herokuapp.com/"
+        />
+        <Card
+          imageURL={shop_shop_redux}
+          title={capitalizeFirstLetter("Shop-Shop with Redux")}
+          description='This an e-commerce application called "Shop-Shop" builded with Node.js, GraphQL, Apollo Server, MongoDB and it is using React for the front end and Redux for state management. The application allow users to shop with various of items upon they want and add the products to shopping Card. The shopping Cart allow user to managing their orders by do increasing, decreasing or deleting items from the Cart, after they made order the users can view the history of their ordered also.'
+          gitHubURL="https://github.com/channchealysek/shop-shop-redux"
+          urlLive="https://shop-shop-redux22.herokuapp.com/"
         />
       </div>
     </div>
