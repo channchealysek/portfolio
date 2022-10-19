@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.8cd1e328.css",
-    "main.js": "/portfolio/static/js/main.62365c6b.js",
+    "main.js": "/portfolio/static/js/main.b4a6dead.js",
     "static/js/787.b9ec5bb0.chunk.js": "/portfolio/static/js/787.b9ec5bb0.chunk.js",
     "static/media/fam-food-finds.png": "/portfolio/static/media/fam-food-finds.8a34bf15082c1f893823.png",
+    "static/media/shop_shop_redux.png": "/portfolio/static/media/shop_shop_redux.3717c0684d9ca3e346df.png",
     "static/media/cs-pizza-hunt.herokuapp.com_.png": "/portfolio/static/media/cs-pizza-hunt.herokuapp.com_.c72353c4945af282f1d6.png",
     "static/media/CHANNCHEALY_SEK_Resume.png": "/portfolio/static/media/CHANNCHEALY_SEK_Resume.27fb862bdfaca14b0fb0.png",
     "static/media/header_bg.png": "/portfolio/static/media/header_bg.4a42d28233106086fd0a.png",
@@ -15,11 +16,11 @@
     "static/media/note-taker.png": "/portfolio/static/media/note-taker.268515b039f8c323d761.png",
     "index.html": "/portfolio/index.html",
     "main.8cd1e328.css.map": "/portfolio/static/css/main.8cd1e328.css.map",
-    "main.62365c6b.js.map": "/portfolio/static/js/main.62365c6b.js.map",
+    "main.b4a6dead.js.map": "/portfolio/static/js/main.b4a6dead.js.map",
     "787.b9ec5bb0.chunk.js.map": "/portfolio/static/js/787.b9ec5bb0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8cd1e328.css",
-    "static/js/main.62365c6b.js"
+    "static/js/main.b4a6dead.js"
   ]
 }
