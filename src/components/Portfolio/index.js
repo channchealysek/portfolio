@@ -10,6 +10,7 @@ import team_profile_generator_ from "../../assets/images/team_profile_generator_
 import note_taker from "../../assets/images/note-taker.png";
 import deep_thoughts from "../../assets/images/deep_thoughts.png";
 import shop_shop_redux from "../../assets/images/shop_shop_redux.png";
+import social_bee from "../../assets/images/social_bee.png";
 
 function Portfolio() {
   return (
@@ -72,6 +73,13 @@ function Portfolio() {
           description='This an e-commerce application called "Shop-Shop" builded with Node.js, GraphQL, Apollo Server, MongoDB and it is using React for the front end and Redux for state management. The application allow users to shop with various of items upon they want and add the products to shopping Card. The shopping Cart allow user to managing their orders by do increasing, decreasing or deleting items from the Cart, after they made order the users can view the history of their ordered also.'
           gitHubURL="https://github.com/channchealysek/shop-shop-redux"
           urlLive="https://shop-shop-redux22.herokuapp.com/"
+        />
+          <Card
+          imageURL={social_bee}
+          title={capitalizeFirstLetter("Social Bee")}
+          description='social-bee is a social app build with HTML, JavaScript CSS, Sematic UI React, MongoDB, Express, NodeJs, React, and GraphQL (the MERNG stack). With the app users who registerd can post the contents to share with their friends or other poeple are using the app without login account, but the users who want like, comment, edit, delete the posts they must has an account, so they have to register account first.'
+          gitHubURL="https://github.com/channchealysek/social-bee"
+          urlLive="https://social-bee21.herokuapp.com/"
         />
       </div>
     </div>
